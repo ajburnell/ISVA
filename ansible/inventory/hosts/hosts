@@ -1,13 +1,5 @@
-[isva:children]
-reverse_proxy
-policy_director
-
-[reverse_proxy]
-
-
-[policy_director]
+[isva]
 policy1.ablab.com.au
 
 [isva:vars]
-ansible_python_interpreter: /usr/bin/python3
 ansible_connection=ibm.isam.isam
