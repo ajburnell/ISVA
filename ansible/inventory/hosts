@@ -1,0 +1,8 @@
+[isva]
+policy1.ablab.com.au
+
+[isva:vars]
+ansible_connection=ibm.isam.isam
+FIPS_cfg.fipsEnabled=true
+FIPS_cfg.tlsv10Enabled=false
+FIPS_cfg.tlsv11Enabled=false

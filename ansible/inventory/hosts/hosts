@@ -1,5 +1,0 @@
-[isva]
-policy1.ablab.com.au
-
-[isva:vars]
-ansible_connection=ibm.isam.isam
