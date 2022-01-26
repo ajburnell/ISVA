@@ -1,0 +1,12 @@
+[isva:children]
+reverse_proxy
+policy_director
+
+[reverse_proxy]
+
+
+[policy_director]
+policy1.ablab.com.au
+
+[isva:vars]
+ansible_connection=ibm.isam.isam
