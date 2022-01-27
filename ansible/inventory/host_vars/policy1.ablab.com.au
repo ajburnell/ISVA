@@ -1,1 +1,1 @@
-set_network_hostname_hostame: "{{ inventory_hostname }}"
+set_network_hostname_hostname: "{{ inventory_hostname }}"
