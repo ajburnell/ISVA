@@ -3,8 +3,7 @@ time_cfg:
     ntpServers: "pool.ntp.org"
     dateTime: "{{ ansible_date_time.date }} {{ ansible_date_time.time }}"
     timeZone: "Australia/Sydney"
-	
 FIPS_cfg:
-    fipsEnabled: true
+    fipsEnabled: false
     tlsv10Enabled: false
     tlsv11Enabled: false
