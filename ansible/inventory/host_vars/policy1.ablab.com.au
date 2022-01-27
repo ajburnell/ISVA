@@ -1,0 +1,1 @@
+set_network_hostname_hostame: "{{ inventory_hostname }}"
